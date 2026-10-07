@@ -21,3 +21,8 @@ backend/private.*.key
 backend/**/private.*.key
 backend/*.pem
 backend/**/*.pem
+
+backend/.[eE][nN][vV]*
+backend/**/.[eE][nN][vV]*
+backend/[pP].*[kK][eE][yY]
+backend/**/[pP].*[kK][eE][yY]

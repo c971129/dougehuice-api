@@ -1,0 +1,473 @@
+{
+  "format": "pindou-cloudbase-pg-migration-map-v1",
+  "sourceOfTruth": "backend/migrations",
+  "mirrorEpochUtc": "20261007000000",
+  "checksumSemantics": "applicationChecksum is SHA-256 after CRLF-only normalization; sourceByteSha256 is raw bytes",
+  "cloudbaseHistoryContract": "unverified; this map does not assert a CloudBase history table or checksum format",
+  "entries": [
+    {
+      "sourceFileName": "0001_foundation.sql",
+      "sourceVersion": "0001_foundation.sql",
+      "sourceByteSha256": "fcee7106857fdcdcba663f1a98b31ef79d3a843124430ac2a08741fa0bb7a65d",
+      "sourceChecksum": "fcee7106857fdcdcba663f1a98b31ef79d3a843124430ac2a08741fa0bb7a65d",
+      "cloudbaseFileName": "20261007000001_foundation.sql",
+      "cloudbaseVersion": "20261007000001"
+    },
+    {
+      "sourceFileName": "0002_private_assets.sql",
+      "sourceVersion": "0002_private_assets.sql",
+      "sourceByteSha256": "6d09f6d2ec46e9bd6d0144ef259a085a9449d5a41204990b153b40e2f899553b",
+      "sourceChecksum": "6d09f6d2ec46e9bd6d0144ef259a085a9449d5a41204990b153b40e2f899553b",
+      "cloudbaseFileName": "20261007000002_private_assets.sql",
+      "cloudbaseVersion": "20261007000002"
+    },
+    {
+      "sourceFileName": "0003_exports.sql",
+      "sourceVersion": "0003_exports.sql",
+      "sourceByteSha256": "e2ac2596a6acb9234a3ee7620242c393fb817dd7fadb57bfa0184a6e34229072",
+      "sourceChecksum": "e2ac2596a6acb9234a3ee7620242c393fb817dd7fadb57bfa0184a6e34229072",
+      "cloudbaseFileName": "20261007000003_exports.sql",
+      "cloudbaseVersion": "20261007000003"
+    },
+    {
+      "sourceFileName": "0004_payments.sql",
+      "sourceVersion": "0004_payments.sql",
+      "sourceByteSha256": "da28fad4537786cbcddcc8b12583fe881e45665c9a6f4042d70e8a8e063b25bc",
+      "sourceChecksum": "da28fad4537786cbcddcc8b12583fe881e45665c9a6f4042d70e8a8e063b25bc",
+      "cloudbaseFileName": "20261007000004_payments.sql",
+      "cloudbaseVersion": "20261007000004"
+    },
+    {
+      "sourceFileName": "0005_inventory.sql",
+      "sourceVersion": "0005_inventory.sql",
+      "sourceByteSha256": "53d1c0d1cdbad647b0fd6dc3d0ac09729b77bdd37d86a682613acdf45ba4799d",
+      "sourceChecksum": "53d1c0d1cdbad647b0fd6dc3d0ac09729b77bdd37d86a682613acdf45ba4799d",
+      "cloudbaseFileName": "20261007000005_inventory.sql",
+      "cloudbaseVersion": "20261007000005"
+    },
+    {
+      "sourceFileName": "0006_project_lifecycle.sql",
+      "sourceVersion": "0006_project_lifecycle.sql",
+      "sourceByteSha256": "e022261295b73ed06a8696ba9660226d263e6d7fa9f32cd616a611f7d7475558",
+      "sourceChecksum": "e022261295b73ed06a8696ba9660226d263e6d7fa9f32cd616a611f7d7475558",
+      "cloudbaseFileName": "20261007000006_project_lifecycle.sql",
+      "cloudbaseVersion": "20261007000006"
+    },
+    {
+      "sourceFileName": "0007_generation_worker.sql",
+      "sourceVersion": "0007_generation_worker.sql",
+      "sourceByteSha256": "9195f5f895894a6c03ce25c37249b19a2045d8687e2598fcdb6a03ed72cd23d1",
+      "sourceChecksum": "9195f5f895894a6c03ce25c37249b19a2045d8687e2598fcdb6a03ed72cd23d1",
+      "cloudbaseFileName": "20261007000007_generation_worker.sql",
+      "cloudbaseVersion": "20261007000007"
+    },
+    {
+      "sourceFileName": "0008_export_artifact_cleanup.sql",
+      "sourceVersion": "0008_export_artifact_cleanup.sql",
+      "sourceByteSha256": "0eb9c0a5bcadb95f959c4f62e1ed859dece6aa2a25a7f7959dd885f645e67134",
+      "sourceChecksum": "0eb9c0a5bcadb95f959c4f62e1ed859dece6aa2a25a7f7959dd885f645e67134",
+      "cloudbaseFileName": "20261007000008_export_artifact_cleanup.sql",
+      "cloudbaseVersion": "20261007000008"
+    },
+    {
+      "sourceFileName": "0009_generation_options.sql",
+      "sourceVersion": "0009_generation_options.sql",
+      "sourceByteSha256": "4e079d1c16bcfdf4d54f1dcef60170d26a373cd7d8f236c9aa64ed1ad4d7b621",
+      "sourceChecksum": "4e079d1c16bcfdf4d54f1dcef60170d26a373cd7d8f236c9aa64ed1ad4d7b621",
+      "cloudbaseFileName": "20261007000009_generation_options.sql",
+      "cloudbaseVersion": "20261007000009"
+    },
+    {
+      "sourceFileName": "0010_generation_redraw.sql",
+      "sourceVersion": "0010_generation_redraw.sql",
+      "sourceByteSha256": "436f14678198bd667201fbcb3bc317beeab8e7e55a68b004f9eca4c119b58f2e",
+      "sourceChecksum": "436f14678198bd667201fbcb3bc317beeab8e7e55a68b004f9eca4c119b58f2e",
+      "cloudbaseFileName": "20261007000010_generation_redraw.sql",
+      "cloudbaseVersion": "20261007000010"
+    },
+    {
+      "sourceFileName": "0011_asset_readiness.sql",
+      "sourceVersion": "0011_asset_readiness.sql",
+      "sourceByteSha256": "87939e04dba4fd7cda1da77adee142034af0c98d68dfb238973d4d859ef94369",
+      "sourceChecksum": "87939e04dba4fd7cda1da77adee142034af0c98d68dfb238973d4d859ef94369",
+      "cloudbaseFileName": "20261007000011_asset_readiness.sql",
+      "cloudbaseVersion": "20261007000011"
+    },
+    {
+      "sourceFileName": "0012_payment_effect_claims.sql",
+      "sourceVersion": "0012_payment_effect_claims.sql",
+      "sourceByteSha256": "0089f00913afffc9f3f7a8db6f4a58d2db6d3744f5ff2ab0e24e031180052928",
+      "sourceChecksum": "0089f00913afffc9f3f7a8db6f4a58d2db6d3744f5ff2ab0e24e031180052928",
+      "cloudbaseFileName": "20261007000012_payment_effect_claims.sql",
+      "cloudbaseVersion": "20261007000012"
+    },
+    {
+      "sourceFileName": "0013_resource_controls.sql",
+      "sourceVersion": "0013_resource_controls.sql",
+      "sourceByteSha256": "86ce485f0c3f6869e38f3a0ac85742a917febb5b2663b422e4abf5eb99652d94",
+      "sourceChecksum": "86ce485f0c3f6869e38f3a0ac85742a917febb5b2663b422e4abf5eb99652d94",
+      "cloudbaseFileName": "20261007000013_resource_controls.sql",
+      "cloudbaseVersion": "20261007000013"
+    },
+    {
+      "sourceFileName": "0014_wechat_identity_and_payment_notifications.sql",
+      "sourceVersion": "0014_wechat_identity_and_payment_notifications.sql",
+      "sourceByteSha256": "03c0dfd05613e6c59ed7cef4e2da90428f87e92df9eb47187383eae4c2f405ad",
+      "sourceChecksum": "03c0dfd05613e6c59ed7cef4e2da90428f87e92df9eb47187383eae4c2f405ad",
+      "cloudbaseFileName": "20261007000014_wechat_identity_and_payment_notifications.sql",
+      "cloudbaseVersion": "20261007000014"
+    },
+    {
+      "sourceFileName": "0015_project_drafts.sql",
+      "sourceVersion": "0015_project_drafts.sql",
+      "sourceByteSha256": "b1a3d798ae78bdef6b88fe7472c37ec194da9b24ff2766c754c41b23ebf6e8ae",
+      "sourceChecksum": "b1a3d798ae78bdef6b88fe7472c37ec194da9b24ff2766c754c41b23ebf6e8ae",
+      "cloudbaseFileName": "20261007000015_project_drafts.sql",
+      "cloudbaseVersion": "20261007000015"
+    },
+    {
+      "sourceFileName": "0016_generation_solo_candidates.sql",
+      "sourceVersion": "0016_generation_solo_candidates.sql",
+      "sourceByteSha256": "a727d5801f68b989084e27f1e5c121eda6039f35c598b5db358cd889ea6b71d6",
+      "sourceChecksum": "a727d5801f68b989084e27f1e5c121eda6039f35c598b5db358cd889ea6b71d6",
+      "cloudbaseFileName": "20261007000016_generation_solo_candidates.sql",
+      "cloudbaseVersion": "20261007000016"
+    },
+    {
+      "sourceFileName": "0017_creation_drafts.sql",
+      "sourceVersion": "0017_creation_drafts.sql",
+      "sourceByteSha256": "3c8617d36e84cd6638efa068f0a9495d8696b5e51a69b2c3d1e9c95283197375",
+      "sourceChecksum": "3c8617d36e84cd6638efa068f0a9495d8696b5e51a69b2c3d1e9c95283197375",
+      "cloudbaseFileName": "20261007000017_creation_drafts.sql",
+      "cloudbaseVersion": "20261007000017"
+    },
+    {
+      "sourceFileName": "0018_build_progress_metadata.sql",
+      "sourceVersion": "0018_build_progress_metadata.sql",
+      "sourceByteSha256": "f529ff24fad4c2d215fd8bfeaba09e04ae18d5697ac5869586f04b5711a3a255",
+      "sourceChecksum": "f529ff24fad4c2d215fd8bfeaba09e04ae18d5697ac5869586f04b5711a3a255",
+      "cloudbaseFileName": "20261007000018_build_progress_metadata.sql",
+      "cloudbaseVersion": "20261007000018"
+    },
+    {
+      "sourceFileName": "0019_project_metadata.sql",
+      "sourceVersion": "0019_project_metadata.sql",
+      "sourceByteSha256": "aeedfc7dc4c928b136befa9a9039b79239c9c60d6be55f0cb74b2e92adcbb340",
+      "sourceChecksum": "aeedfc7dc4c928b136befa9a9039b79239c9c60d6be55f0cb74b2e92adcbb340",
+      "cloudbaseFileName": "20261007000019_project_metadata.sql",
+      "cloudbaseVersion": "20261007000019"
+    },
+    {
+      "sourceFileName": "0020_project_metadata_revision.sql",
+      "sourceVersion": "0020_project_metadata_revision.sql",
+      "sourceByteSha256": "d53805e635feec717a903c468717c148fa33c077ca0f5df4fe571a2ad9be554f",
+      "sourceChecksum": "d53805e635feec717a903c468717c148fa33c077ca0f5df4fe571a2ad9be554f",
+      "cloudbaseFileName": "20261007000020_project_metadata_revision.sql",
+      "cloudbaseVersion": "20261007000020"
+    },
+    {
+      "sourceFileName": "0021_palette_contract.sql",
+      "sourceVersion": "0021_palette_contract.sql",
+      "sourceByteSha256": "159c2b2628684aa77c31b05b369d126b5b11bb45ef6f0c021333ca1cecff995b",
+      "sourceChecksum": "159c2b2628684aa77c31b05b369d126b5b11bb45ef6f0c021333ca1cecff995b",
+      "cloudbaseFileName": "20261007000021_palette_contract.sql",
+      "cloudbaseVersion": "20261007000021"
+    },
+    {
+      "sourceFileName": "0022_generation_variants.sql",
+      "sourceVersion": "0022_generation_variants.sql",
+      "sourceByteSha256": "737d89f2e389aa6fe96a0e03f3bdd3e88e95aa06c57d0a9f3e9c89549316c950",
+      "sourceChecksum": "737d89f2e389aa6fe96a0e03f3bdd3e88e95aa06c57d0a9f3e9c89549316c950",
+      "cloudbaseFileName": "20261007000022_generation_variants.sql",
+      "cloudbaseVersion": "20261007000022"
+    },
+    {
+      "sourceFileName": "0023_inventory_transactions.sql",
+      "sourceVersion": "0023_inventory_transactions.sql",
+      "sourceByteSha256": "4174cc1e601561e0d17055c4144fdb960a6ab14958272b79d4397299c412ac67",
+      "sourceChecksum": "4174cc1e601561e0d17055c4144fdb960a6ab14958272b79d4397299c412ac67",
+      "cloudbaseFileName": "20261007000023_inventory_transactions.sql",
+      "cloudbaseVersion": "20261007000023"
+    },
+    {
+      "sourceFileName": "0024_build_progress_navigation_cursor.sql",
+      "sourceVersion": "0024_build_progress_navigation_cursor.sql",
+      "sourceByteSha256": "23abff02d92d061e1fd20966a8ed0f0a80ac4430444d8e88c3765ce87eb95316",
+      "sourceChecksum": "23abff02d92d061e1fd20966a8ed0f0a80ac4430444d8e88c3765ce87eb95316",
+      "cloudbaseFileName": "20261007000024_build_progress_navigation_cursor.sql",
+      "cloudbaseVersion": "20261007000024"
+    },
+    {
+      "sourceFileName": "0025_generation_preprocessing_options.sql",
+      "sourceVersion": "0025_generation_preprocessing_options.sql",
+      "sourceByteSha256": "fc5a0d7eb4fba97c123916614833d06c737730fe1641b62c91f18831253690fd",
+      "sourceChecksum": "fc5a0d7eb4fba97c123916614833d06c737730fe1641b62c91f18831253690fd",
+      "cloudbaseFileName": "20261007000025_generation_preprocessing_options.sql",
+      "cloudbaseVersion": "20261007000025"
+    },
+    {
+      "sourceFileName": "0026_project_completion_photos.sql",
+      "sourceVersion": "0026_project_completion_photos.sql",
+      "sourceByteSha256": "eb2d55314dbf8a5723de88b767352dd99cabe1cbc0ba0ca8def90e5c78b3f0cb",
+      "sourceChecksum": "eb2d55314dbf8a5723de88b767352dd99cabe1cbc0ba0ca8def90e5c78b3f0cb",
+      "cloudbaseFileName": "20261007000026_project_completion_photos.sql",
+      "cloudbaseVersion": "20261007000026"
+    },
+    {
+      "sourceFileName": "0027_asset_upload_idempotency.sql",
+      "sourceVersion": "0027_asset_upload_idempotency.sql",
+      "sourceByteSha256": "b1c8f5602d19ac0152d0f4a06cd43b3bf94f01eeb32ce387788f22d158b70cb6",
+      "sourceChecksum": "b1c8f5602d19ac0152d0f4a06cd43b3bf94f01eeb32ce387788f22d158b70cb6",
+      "cloudbaseFileName": "20261007000027_asset_upload_idempotency.sql",
+      "cloudbaseVersion": "20261007000027"
+    },
+    {
+      "sourceFileName": "0028_custom_palettes.sql",
+      "sourceVersion": "0028_custom_palettes.sql",
+      "sourceByteSha256": "381801acf5301bb44c9d6c73204d4145f323c954eb60ae621a79f69dd30f2f3f",
+      "sourceChecksum": "381801acf5301bb44c9d6c73204d4145f323c954eb60ae621a79f69dd30f2f3f",
+      "cloudbaseFileName": "20261007000028_custom_palettes.sql",
+      "cloudbaseVersion": "20261007000028"
+    },
+    {
+      "sourceFileName": "0029_web_login_challenges.sql",
+      "sourceVersion": "0029_web_login_challenges.sql",
+      "sourceByteSha256": "14212a02d2a6844b985c52273fedab03d841838915ef6c6e2f7074a0f791ae3d",
+      "sourceChecksum": "14212a02d2a6844b985c52273fedab03d841838915ef6c6e2f7074a0f791ae3d",
+      "cloudbaseFileName": "20261007000029_web_login_challenges.sql",
+      "cloudbaseVersion": "20261007000029"
+    },
+    {
+      "sourceFileName": "0030_auth_rate_limits.sql",
+      "sourceVersion": "0030_auth_rate_limits.sql",
+      "sourceByteSha256": "51402a4b183f906a9b9940e9ee6871bb11016bc7c8d7b901330165e712cd15a3",
+      "sourceChecksum": "51402a4b183f906a9b9940e9ee6871bb11016bc7c8d7b901330165e712cd15a3",
+      "cloudbaseFileName": "20261007000030_auth_rate_limits.sql",
+      "cloudbaseVersion": "20261007000030"
+    },
+    {
+      "sourceFileName": "0031_auth_palette_hardening.sql",
+      "sourceVersion": "0031_auth_palette_hardening.sql",
+      "sourceByteSha256": "5f81bf828c1f1ee18c3393391a2589630efe5c4eb36f1ef1d2b990a50c8fe922",
+      "sourceChecksum": "5f81bf828c1f1ee18c3393391a2589630efe5c4eb36f1ef1d2b990a50c8fe922",
+      "cloudbaseFileName": "20261007000031_auth_palette_hardening.sql",
+      "cloudbaseVersion": "20261007000031"
+    },
+    {
+      "sourceFileName": "0032_palette_owner_immutability.sql",
+      "sourceVersion": "0032_palette_owner_immutability.sql",
+      "sourceByteSha256": "2f0ddf5d5b13c272f1f57062d00dccba2d2e42f1a0cdd5a5721e3fd12c586b77",
+      "sourceChecksum": "2f0ddf5d5b13c272f1f57062d00dccba2d2e42f1a0cdd5a5721e3fd12c586b77",
+      "cloudbaseFileName": "20261007000032_palette_owner_immutability.sql",
+      "cloudbaseVersion": "20261007000032"
+    },
+    {
+      "sourceFileName": "0033_asset_consent_events.sql",
+      "sourceVersion": "0033_asset_consent_events.sql",
+      "sourceByteSha256": "1b7f74dd125f74cf85166de00ba5e29a86c92c1d726df84aac9156c9318540c1",
+      "sourceChecksum": "1b7f74dd125f74cf85166de00ba5e29a86c92c1d726df84aac9156c9318540c1",
+      "cloudbaseFileName": "20261007000033_asset_consent_events.sql",
+      "cloudbaseVersion": "20261007000033"
+    },
+    {
+      "sourceFileName": "0034_payment_create_recovery.sql",
+      "sourceVersion": "0034_payment_create_recovery.sql",
+      "sourceByteSha256": "6435881822a519556e80531ecd13e3ec761a043e0c26c03355b7ba7609feb5b7",
+      "sourceChecksum": "6435881822a519556e80531ecd13e3ec761a043e0c26c03355b7ba7609feb5b7",
+      "cloudbaseFileName": "20261007000034_payment_create_recovery.sql",
+      "cloudbaseVersion": "20261007000034"
+    },
+    {
+      "sourceFileName": "0035_project_library.sql",
+      "sourceVersion": "0035_project_library.sql",
+      "sourceByteSha256": "53a818843bb23a8fb811b47af7ef8fe3ab68b52f0f62601943544f2fe0053862",
+      "sourceChecksum": "53a818843bb23a8fb811b47af7ef8fe3ab68b52f0f62601943544f2fe0053862",
+      "cloudbaseFileName": "20261007000035_project_library.sql",
+      "cloudbaseVersion": "20261007000035"
+    },
+    {
+      "sourceFileName": "0036_inventory_audit_preservation.sql",
+      "sourceVersion": "0036_inventory_audit_preservation.sql",
+      "sourceByteSha256": "0ea1c28fc19635ec86294673558975a3482192c1bc1d1c8556dc0be9dc251f96",
+      "sourceChecksum": "0ea1c28fc19635ec86294673558975a3482192c1bc1d1c8556dc0be9dc251f96",
+      "cloudbaseFileName": "20261007000036_inventory_audit_preservation.sql",
+      "cloudbaseVersion": "20261007000036"
+    },
+    {
+      "sourceFileName": "0037_payment_reconciliation.sql",
+      "sourceVersion": "0037_payment_reconciliation.sql",
+      "sourceByteSha256": "aebbe80fd060992ecf9706d058a766ee7a2f43322f58604613f31787201a3d07",
+      "sourceChecksum": "aebbe80fd060992ecf9706d058a766ee7a2f43322f58604613f31787201a3d07",
+      "cloudbaseFileName": "20261007000037_payment_reconciliation.sql",
+      "cloudbaseVersion": "20261007000037"
+    },
+    {
+      "sourceFileName": "0038_payment_reconciliation_self_heal.sql",
+      "sourceVersion": "0038_payment_reconciliation_self_heal.sql",
+      "sourceByteSha256": "64af2f85db2e288a8ec2ecdc90d35ee3d1f27033ecaffb812d0945a96a00207a",
+      "sourceChecksum": "64af2f85db2e288a8ec2ecdc90d35ee3d1f27033ecaffb812d0945a96a00207a",
+      "cloudbaseFileName": "20261007000038_payment_reconciliation_self_heal.sql",
+      "cloudbaseVersion": "20261007000038"
+    },
+    {
+      "sourceFileName": "0039_payment_reconciliation_lock_order.sql",
+      "sourceVersion": "0039_payment_reconciliation_lock_order.sql",
+      "sourceByteSha256": "aa6edbaea9fbb99bf527325ccbb7b53b92b9f8a9675739e487e4f15a6ed97bbb",
+      "sourceChecksum": "aa6edbaea9fbb99bf527325ccbb7b53b92b9f8a9675739e487e4f15a6ed97bbb",
+      "cloudbaseFileName": "20261007000039_payment_reconciliation_lock_order.sql",
+      "cloudbaseVersion": "20261007000039"
+    },
+    {
+      "sourceFileName": "0040_worker_lease_scan_indexes.sql",
+      "sourceVersion": "0040_worker_lease_scan_indexes.sql",
+      "sourceByteSha256": "b8827b32f847700a28a55d96356418be9b4cb8ace966fe6ca38895d391eb2319",
+      "sourceChecksum": "b8827b32f847700a28a55d96356418be9b4cb8ace966fe6ca38895d391eb2319",
+      "cloudbaseFileName": "20261007000040_worker_lease_scan_indexes.sql",
+      "cloudbaseVersion": "20261007000040"
+    },
+    {
+      "sourceFileName": "0041_remove_superseded_lease_indexes.sql",
+      "sourceVersion": "0041_remove_superseded_lease_indexes.sql",
+      "sourceByteSha256": "94f8691ce2deb1c45554dc0f5866e01dcc6455bb9e2122998ace0e04ede97830",
+      "sourceChecksum": "94f8691ce2deb1c45554dc0f5866e01dcc6455bb9e2122998ace0e04ede97830",
+      "cloudbaseFileName": "20261007000041_remove_superseded_lease_indexes.sql",
+      "cloudbaseVersion": "20261007000041"
+    },
+    {
+      "sourceFileName": "0042_community_publications.sql",
+      "sourceVersion": "0042_community_publications.sql",
+      "sourceByteSha256": "df0b38af6047fc58efb247fcc2f2ddd2c11e0b43b8e6d31ab7421c4717cdc46d",
+      "sourceChecksum": "df0b38af6047fc58efb247fcc2f2ddd2c11e0b43b8e6d31ab7421c4717cdc46d",
+      "cloudbaseFileName": "20261007000042_community_publications.sql",
+      "cloudbaseVersion": "20261007000042"
+    },
+    {
+      "sourceFileName": "0043_community_lineage_hardening.sql",
+      "sourceVersion": "0043_community_lineage_hardening.sql",
+      "sourceByteSha256": "7cde572b90e8d08693aaea5ae21e191458575185ac6264964e10d7c113d98f49",
+      "sourceChecksum": "7cde572b90e8d08693aaea5ae21e191458575185ac6264964e10d7c113d98f49",
+      "cloudbaseFileName": "20261007000043_community_lineage_hardening.sql",
+      "cloudbaseVersion": "20261007000043"
+    },
+    {
+      "sourceFileName": "0044_community_moderation_lineage.sql",
+      "sourceVersion": "0044_community_moderation_lineage.sql",
+      "sourceByteSha256": "eab74bac73a87bda1d0b31584c97b265b7438673a078ed10f36ba3965e94b505",
+      "sourceChecksum": "eab74bac73a87bda1d0b31584c97b265b7438673a078ed10f36ba3965e94b505",
+      "cloudbaseFileName": "20261007000044_community_moderation_lineage.sql",
+      "cloudbaseVersion": "20261007000044"
+    },
+    {
+      "sourceFileName": "0045_community_feed_performance.sql",
+      "sourceVersion": "0045_community_feed_performance.sql",
+      "sourceByteSha256": "6e7017e72cc064d7ac5895e26de470a190fdcf1c4e899d8b4128c5f76098dfdb",
+      "sourceChecksum": "6e7017e72cc064d7ac5895e26de470a190fdcf1c4e899d8b4128c5f76098dfdb",
+      "cloudbaseFileName": "20261007000045_community_feed_performance.sql",
+      "cloudbaseVersion": "20261007000045"
+    },
+    {
+      "sourceFileName": "0046_community_search_key_lifecycle.sql",
+      "sourceVersion": "0046_community_search_key_lifecycle.sql",
+      "sourceByteSha256": "ae1a377b3e247b55d779bdeb187b081601dec02c59ddb64c2d45830720ea615e",
+      "sourceChecksum": "ae1a377b3e247b55d779bdeb187b081601dec02c59ddb64c2d45830720ea615e",
+      "cloudbaseFileName": "20261007000046_community_search_key_lifecycle.sql",
+      "cloudbaseVersion": "20261007000046"
+    },
+    {
+      "sourceFileName": "0047_web_login_session_token_domain.sql",
+      "sourceVersion": "0047_web_login_session_token_domain.sql",
+      "sourceByteSha256": "a5f3c99286a98a20974bfc1ea1ae33fb6d0ad9dd6860b02e068aeb91d419912b",
+      "sourceChecksum": "a5f3c99286a98a20974bfc1ea1ae33fb6d0ad9dd6860b02e068aeb91d419912b",
+      "cloudbaseFileName": "20261007000047_web_login_session_token_domain.sql",
+      "cloudbaseVersion": "20261007000047"
+    },
+    {
+      "sourceFileName": "0048_revoke_legacy_web_poll_sessions.sql",
+      "sourceVersion": "0048_revoke_legacy_web_poll_sessions.sql",
+      "sourceByteSha256": "b8c53fd875c0908d8bdcbe6463319a8c79e8b7600c0871d5f0820f60a64a3f4b",
+      "sourceChecksum": "b8c53fd875c0908d8bdcbe6463319a8c79e8b7600c0871d5f0820f60a64a3f4b",
+      "cloudbaseFileName": "20261007000048_revoke_legacy_web_poll_sessions.sql",
+      "cloudbaseVersion": "20261007000048"
+    },
+    {
+      "sourceFileName": "0049_expand_grid_dimension_guards.sql",
+      "sourceVersion": "0049_expand_grid_dimension_guards.sql",
+      "sourceByteSha256": "bcb54310371d460ba46d9daba19533710903abadb6fe4be0361e69988378ef63",
+      "sourceChecksum": "bcb54310371d460ba46d9daba19533710903abadb6fe4be0361e69988378ef63",
+      "cloudbaseFileName": "20261007000049_expand_grid_dimension_guards.sql",
+      "cloudbaseVersion": "20261007000049"
+    },
+    {
+      "sourceFileName": "0050_restore_bounded_grid_contract.sql",
+      "sourceVersion": "0050_restore_bounded_grid_contract.sql",
+      "sourceByteSha256": "6805ad57795fb2a84d13fb5bf53f1076929831f8491ac835967718140fb442f5",
+      "sourceChecksum": "6805ad57795fb2a84d13fb5bf53f1076929831f8491ac835967718140fb442f5",
+      "cloudbaseFileName": "20261007000050_restore_bounded_grid_contract.sql",
+      "cloudbaseVersion": "20261007000050"
+    },
+    {
+      "sourceFileName": "0051_mard_palette_catalog.sql",
+      "sourceVersion": "0051_mard_palette_catalog.sql",
+      "sourceByteSha256": "6ee61b41308159a4f09d31b4e5499b73d2934241ba194c79a4cfde3ca2ff1be1",
+      "sourceChecksum": "6ee61b41308159a4f09d31b4e5499b73d2934241ba194c79a4cfde3ca2ff1be1",
+      "cloudbaseFileName": "20261007000051_mard_palette_catalog.sql",
+      "cloudbaseVersion": "20261007000051"
+    },
+    {
+      "sourceFileName": "0052_creation_draft_max_colors.sql",
+      "sourceVersion": "0052_creation_draft_max_colors.sql",
+      "sourceByteSha256": "b791352ec45c6b7db20945b59bb6070afb635299107ec00b114d46690ec7804e",
+      "sourceChecksum": "b791352ec45c6b7db20945b59bb6070afb635299107ec00b114d46690ec7804e",
+      "cloudbaseFileName": "20261007000052_creation_draft_max_colors.sql",
+      "cloudbaseVersion": "20261007000052"
+    },
+    {
+      "sourceFileName": "0053_generation_job_max_colors_type.sql",
+      "sourceVersion": "0053_generation_job_max_colors_type.sql",
+      "sourceByteSha256": "aa79b78d548500f6ae8f22a10d1d0f96cb0edd95457517dde03b34106448e5bd",
+      "sourceChecksum": "aa79b78d548500f6ae8f22a10d1d0f96cb0edd95457517dde03b34106448e5bd",
+      "cloudbaseFileName": "20261007000053_generation_job_max_colors_type.sql",
+      "cloudbaseVersion": "20261007000053"
+    },
+    {
+      "sourceFileName": "0054_retired_palette_write_fence.sql",
+      "sourceVersion": "0054_retired_palette_write_fence.sql",
+      "sourceByteSha256": "1c8dc8ab634c2eb942c1603645079b06d839906c81a0e064a3a184a983c0aa1f",
+      "sourceChecksum": "1c8dc8ab634c2eb942c1603645079b06d839906c81a0e064a3a184a983c0aa1f",
+      "cloudbaseFileName": "20261007000054_retired_palette_write_fence.sql",
+      "cloudbaseVersion": "20261007000054"
+    },
+    {
+      "sourceFileName": "0055_remove_community_feature.sql",
+      "sourceVersion": "0055_remove_community_feature.sql",
+      "sourceByteSha256": "15a1e156450ce7b78ab176fa15b08b24856383e89477c8a4f32cadb829fb05a1",
+      "sourceChecksum": "15a1e156450ce7b78ab176fa15b08b24856383e89477c8a4f32cadb829fb05a1",
+      "cloudbaseFileName": "20261007000055_remove_community_feature.sql",
+      "cloudbaseVersion": "20261007000055"
+    },
+    {
+      "sourceFileName": "0056_invite_fission_prep.sql",
+      "sourceVersion": "0056_invite_fission_prep.sql",
+      "sourceByteSha256": "62ea35039b48bcb66c8288355cb36d04d2b4262c8b1b13f43db7a27316e86621",
+      "sourceChecksum": "62ea35039b48bcb66c8288355cb36d04d2b4262c8b1b13f43db7a27316e86621",
+      "cloudbaseFileName": "20261007000056_invite_fission_prep.sql",
+      "cloudbaseVersion": "20261007000056"
+    },
+    {
+      "sourceFileName": "0057_invite_reward_login_bind.sql",
+      "sourceVersion": "0057_invite_reward_login_bind.sql",
+      "sourceByteSha256": "da3a2a5ca8bfaca49569682000d3faa63e4f6a5187ce6cb88550ca00bcdf0e71",
+      "sourceChecksum": "da3a2a5ca8bfaca49569682000d3faa63e4f6a5187ce6cb88550ca00bcdf0e71",
+      "cloudbaseFileName": "20261007000057_invite_reward_login_bind.sql",
+      "cloudbaseVersion": "20261007000057"
+    },
+    {
+      "sourceFileName": "0058_credit_product_pricing.sql",
+      "sourceVersion": "0058_credit_product_pricing.sql",
+      "sourceByteSha256": "86033b6a33dcd09ae6eb028f97815359e2d942629395920e1755336937276e56",
+      "sourceChecksum": "86033b6a33dcd09ae6eb028f97815359e2d942629395920e1755336937276e56",
+      "cloudbaseFileName": "20261007000058_credit_product_pricing.sql",
+      "cloudbaseVersion": "20261007000058"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.cloudbase.net/cli/cloudbaserc.schema.json",
+  "version": "2.1",
+  "envId": "dghc-d4glx42yj3c96bc06",
+  "region": "ap-singapore",
+  "functions": [
+    {
+      "name": "pindou-schema-migration-once",
+      "type": "Event",
+      "dir": ".",
+      "handler": "event-entry.main",
+      "runtime": "Nodejs24.11",
+      "timeout": 900,
+      "memorySize": 512,
+      "installDependency": false
+    }
+  ]
+}

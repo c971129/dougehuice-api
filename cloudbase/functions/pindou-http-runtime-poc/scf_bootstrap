@@ -1,0 +1,4 @@
+#!/bin/bash
+set -euo pipefail
+cd "$(dirname "$0")"
+exec /var/lang/node24/bin/node index.js

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://static.cloudbase.net/cli/cloudbaserc.schema.json",
+  "version": "2.1",
+  "envId": "dghc-d4glx42yj3c96bc06",
+  "region": "ap-singapore",
+  "functions": [
+    {
+      "name": "pindou-pg-tls-probe",
+      "type": "Event",
+      "dir": "./cloudbase/functions/pindou-pg-tls-probe",
+      "runtime": "Nodejs24.11",
+      "timeout": 10,
+      "memorySize": 256,
+      "description": "One-shot read-only PostgreSQL TLS connectivity probe"
+    },
+    {
+      "name": "pindou-http-runtime-poc",
+      "type": "HTTP",
+      "dir": "./cloudbase/functions/pindou-http-runtime-poc",
+      "runtime": "Nodejs24.11",
+      "timeout": 3,
+      "memorySize": 256
+    },
+    {
+      "name": "pindou-schema-migration-once",
+      "type": "Event",
+      "dir": "./cloudbase/functions/pindou-schema-migration/bundle",
+      "runtime": "Nodejs24.11",
+      "timeout": 900,
+      "memorySize": 512,
+      "description": "Admin-triggered one-shot schema migration; not routed through the HTTP gateway"
+    }
+  ],
+  "gateway": {
+    "routes": [
+      {
+        "path": "/api/v1/health",
+        "pathRewrite": { "prefix": "/api/v1/health" },
+        "target": "function:pindou-http-runtime-poc",
+        "enableAuth": false,
+        "enablePathTransmission": true
+      }
+    ]
+  }
+}

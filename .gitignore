@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+.DS_Store
+dist
+build
+*.local
+backend/.env
+backend/.env.production
+backend/.env.production.local
+backend/.data/
+backend/secrets/
+backend/private.*.key
+backend/**/*.pem
+.codex-video-analysis/
+.uniapp-template/
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# API publish extras
+.env
+.env.*
+!.env.production.example
+backend/node_modules/
+cloudbase/**/node_modules/
+*.zip
+artifacts/

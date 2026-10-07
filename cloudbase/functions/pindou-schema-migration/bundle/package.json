@@ -1,0 +1,59 @@
+{
+  "name": "@pindou/backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=24"
+  },
+  "files": [
+    "index.js",
+    "dist/**",
+    "migrations/**",
+    "scf_bootstrap"
+  ],
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "dev:memory": "tsx watch src/dev-memory.ts",
+    "build": "tsc -p tsconfig.build.json",
+    "type-check": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/src/index.js",
+    "cloudbase:package": "node scripts/package-cloudbase-function.mjs",
+    "start:memory": "node dist/src/dev-memory.js",
+    "test": "tsx --test test/*.test.ts",
+    "migrate": "tsx src/migrate.ts",
+    "seed": "tsx src/seed.ts",
+    "assets:purge": "node dist/src/purge-expired-assets.js",
+    "assets:purge:dev": "tsx src/purge-expired-assets.ts",
+    "exports:worker": "node dist/src/run-export-worker.js",
+    "exports:worker:dev": "tsx src/run-export-worker.ts",
+    "exports:purge": "node dist/src/purge-expired-export-artifacts.js",
+    "exports:purge:dev": "tsx src/purge-expired-export-artifacts.ts",
+    "generation:worker": "node dist/src/run-generation-worker.js",
+    "generation:worker:dev": "tsx src/run-generation-worker.ts",
+    "payments:reconcile": "node dist/src/run-payment-reconciliation-worker.js",
+    "payments:reconcile:dev": "tsx src/run-payment-reconciliation-worker.ts",
+    "e2e:smoke": "node scripts/e2e-smoke.mjs",
+    "concurrency:smoke": "node scripts/concurrency-smoke.mjs",
+    "performance:smoke": "node scripts/performance-smoke.mjs",
+    "release:payment-lock-order": "node scripts/payment-lock-order-release-check.mjs",
+    "release:postgres": "node scripts/postgres-release-check.mjs",
+    "release:current-schema-e2e": "node scripts/current-schema-e2e-release-check.mjs",
+    "release:postgres:full": "node scripts/full-postgres-release-check.mjs"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "3.1146.0",
+    "@fastify/cors": "11.3.0",
+    "@fastify/multipart": "10.1.2",
+    "@fastify/swagger": "9.9.1(supports-color@8.1.1)",
+    "@sinclair/typebox": "0.34.52",
+    "dotenv": "17.2.3",
+    "fastify": "5.12.5",
+    "pdf-lib": "1.17.1",
+    "pg": "8.16.3",
+    "sharp": "0.35.5(@types/node@24.10.4)"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}

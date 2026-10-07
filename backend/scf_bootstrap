@@ -1,0 +1,22 @@
+#!/bin/bash
+set -euo pipefail
+
+cd "$(dirname "$0")"
+
+if [[ ! -f index.js || ! -f dist/src/index.js ]]; then
+  echo "CloudBase API entrypoint is missing: index.js or dist/src/index.js" >&2
+  exit 1
+fi
+
+export HOST="${HOST:-0.0.0.0}"
+export PORT="${PORT:-9000}"
+export NODE_ENV="${NODE_ENV:-production}"
+export DATABASE_POOL_MAX="${DATABASE_POOL_MAX:-2}"
+NODE_BIN="${NODE_BIN:-/var/lang/node24/bin/node}"
+
+if [[ ! -x "$NODE_BIN" ]]; then
+  echo "CloudBase Node.js 24 runtime binary is missing: $NODE_BIN" >&2
+  exit 1
+fi
+
+exec "$NODE_BIN" index.js

@@ -105,7 +105,7 @@ export async function loadMigrationFiles(
 
 export async function assertPublicSearchPath(client: MigrationClient): Promise<void> {
   const result = await client.query<{ current_schema: string | null; schemas: string[] }>(
-    "SELECT current_schema() AS current_schema, current_schemas(false) AS schemas",
+    "SELECT current_schema() AS current_schema, array_to_json(current_schemas(false)) AS schemas",
   );
   const row = result.rows[0];
   if (row?.current_schema !== "public"
